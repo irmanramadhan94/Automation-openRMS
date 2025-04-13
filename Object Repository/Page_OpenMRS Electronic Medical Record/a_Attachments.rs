@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Attachments</name>
+   <tag></tag>
+   <elementGuidId>e4083a11-cf13-47cf-bcf7-2cfb5e7e966d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='attachments.attachments.visitActions.default']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Attachments&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8018a161-e6cc-4cc0-b6a6-39a0822a19b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/openmrs/attachments/attachments.page?patient=686ba792-0df6-4a70-9a0f-c933263b2acf&amp;patientId=548&amp;visit=dc24c729-78d7-4ae8-bcf4-cc5e4eea7411&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fpatientdashboard%2FpatientDashboard.page%3FpatientId%3D548%26%26visitId%3D2417</value>
+      <webElementGuid>b0cfa3b5-ad87-47cf-88cf-61386bf74f71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>attachments.attachments.visitActions.default</value>
+      <webElementGuid>78c8cf6b-f60a-4088-8291-e6b92573869a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button task activelist</value>
+      <webElementGuid>d7566b52-5367-40b3-9b06-aae56eeb7ee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            
+                 Attachments</value>
+      <webElementGuid>b261cec1-2c54-4ef0-b2f6-9432ce4402be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attachments.attachments.visitActions.default&quot;)</value>
+      <webElementGuid>767df238-08ce-488a-99cb-132f5fad33f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='attachments.attachments.visitActions.default']</value>
+      <webElementGuid>cf2a09c0-41a9-4ac3-83bb-605b72351908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='visit-details']/div[2]/a[5]</value>
+      <webElementGuid>833b1dbb-6323-4106-96ea-bbd3dbaa2331</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[1]</value>
+      <webElementGuid>0a0b135e-e98b-4d10-af75-3876aabfc123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Attachments']/parent::*</value>
+      <webElementGuid>e7a875c6-1cdc-4c31-ac6d-0b2abcdaf218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/openmrs/attachments/attachments.page?patient=686ba792-0df6-4a70-9a0f-c933263b2acf&amp;patientId=548&amp;visit=dc24c729-78d7-4ae8-bcf4-cc5e4eea7411&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fpatientdashboard%2FpatientDashboard.page%3FpatientId%3D548%26%26visitId%3D2417')]</value>
+      <webElementGuid>596b5f6d-3ab4-4167-9d77-42a0c8b82c69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[5]</value>
+      <webElementGuid>d03dfe23-8dac-447a-b675-f0ecdc355914</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/openmrs/attachments/attachments.page?patient=686ba792-0df6-4a70-9a0f-c933263b2acf&amp;patientId=548&amp;visit=dc24c729-78d7-4ae8-bcf4-cc5e4eea7411&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fpatientdashboard%2FpatientDashboard.page%3FpatientId%3D548%26%26visitId%3D2417' and @id = 'attachments.attachments.visitActions.default' and (text() = '
+            
+                 Attachments' or . = '
+            
+                 Attachments')]</value>
+      <webElementGuid>c5dcdfd8-09e3-456f-b082-5c641b71dd51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

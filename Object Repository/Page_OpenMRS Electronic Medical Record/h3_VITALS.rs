@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_VITALS</name>
+   <tag></tag>
+   <elementGuidId>2e3215bb-692e-4aaf-94fa-537236bbca7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'VITALS' or . = 'VITALS')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='coreapps-mostRecentVitals']/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#coreapps-mostRecentVitals > div.info-header > h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>fd2480de-3e40-49b7-bc04-a511c12152bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VITALS</value>
+      <webElementGuid>475511d8-fd07-46b0-a86b-48080fbb85c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-mostRecentVitals&quot;)/div[@class=&quot;info-header&quot;]/h3[1]</value>
+      <webElementGuid>5e3417ca-41ef-4176-a849-8cad3f57e1c0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='coreapps-mostRecentVitals']/div/h3</value>
+      <webElementGuid>295fc82d-06b9-4c2b-8aab-76c022898a72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Weight (kg)'])[1]/following::h3[1]</value>
+      <webElementGuid>6bf67b5f-3e5a-4f85-98d4-2c35bad026b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[3]/preceding::h3[1]</value>
+      <webElementGuid>4b6f2f9c-9ff0-4016-9073-37afdc9a724e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APPOINTMENTS'])[1]/preceding::h3[1]</value>
+      <webElementGuid>8747cd51-6bfa-4cfa-8248-33687c61372b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='VITALS']/parent::*</value>
+      <webElementGuid>c1545bed-99df-4e7e-aef7-52601b227ba2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[5]/div/h3</value>
+      <webElementGuid>0cf91aa5-4073-4770-a167-45e628722d6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'VITALS' or . = 'VITALS')]</value>
+      <webElementGuid>78722b9e-7a46-4690-98eb-98c6da35da65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

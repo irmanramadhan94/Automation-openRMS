@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_LATEST OBSERVATIONS (1)</name>
+   <tag></tag>
+   <elementGuidId>cc8c20f6-3865-4458-96df-a68e40303d2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#coreapps-fr2964 > div.info-header > h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='coreapps-fr2964']/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>03b07ce6-2e06-48c2-b548-703e9868c42b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LATEST OBSERVATIONS</value>
+      <webElementGuid>eee1bc72-8997-4aa9-bf1d-b39c9c7b4bee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-fr2964&quot;)/div[@class=&quot;info-header&quot;]/h3[1]</value>
+      <webElementGuid>48ab67c3-cd40-40e7-a221-8d2996b61b0b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='coreapps-fr2964']/div/h3</value>
+      <webElementGuid>78f2aff5-d165-49b5-937b-32a48ad60afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None in the last 730 days'])[1]/following::h3[1]</value>
+      <webElementGuid>5f665c3d-5881-490a-b32f-ff1321910092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DIAGNOSES'])[1]/following::h3[1]</value>
+      <webElementGuid>ccaaef13-3524-4a09-b31c-90006dcd052b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/preceding::h3[1]</value>
+      <webElementGuid>37517b2c-f52d-40bc-aaa9-942a255edc62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LATEST OBSERVATIONS']/parent::*</value>
+      <webElementGuid>6ac1d941-2435-469e-9ec0-1a9511a4340f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/h3</value>
+      <webElementGuid>df7c4ccc-9121-443b-9ca2-4178c00a7c63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'LATEST OBSERVATIONS' or . = 'LATEST OBSERVATIONS')]</value>
+      <webElementGuid>cd2c9653-9fe1-4c8d-9959-a749bac7f66e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

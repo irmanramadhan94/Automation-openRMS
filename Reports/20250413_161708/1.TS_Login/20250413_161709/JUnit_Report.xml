@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1.TS_Login" time="148.638" tests="3" failures="0" errors="0">
+   <testsuite name="1.TS_Login" tests="3" failures="0" errors="0" time="148.638" skipped="0" timestamp="13-04-2025T16:17:24" hostname="acer - 20.20.2.217" id="Test Suites/1.TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\1.TS_Login\\20250413_161709"/>
+         <property name="logFiles" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\1.TS_Login\\20250413_161709\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="acer - 20.20.2.217"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.42"/>
+         <property name="hostAddress" value="20.20.2.217"/>
+         <property name="sessionId" value="253122030145aa8023c05cd8a51997c4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1. Login/1. Login menggunakan invalid credential" time="26.047" classname="Test Cases/1. Login/1. Login menggunakan invalid credential" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:17:24 - [TEST_CASE][PASSED] - Test Cases/1. Login/1. Login menggunakan invalid credential: Test Cases/1. Login/1. Login menggunakan invalid credential
+
+13-04-2025T16:17:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:17:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:17:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:17:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:17:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:17:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:17:26 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:17:26 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:33 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:17:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:17:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:17:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:17:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:17:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:17:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:17:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:17:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:17:40 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:17:40 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:47 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "lorem"): Text 'lorem' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:48 - [MESSAGE][PASSED] - Text 'lorem' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "3jc02kEOUvU="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:17:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login/div_Invalid usernamepassword. Please try again"), "Invalid username/password. Please try again."): Actual text and expected text of test object 'Object Repository/Page_Login/div_Invalid usernamepassword. Please try again' are matched.
+
+13-04-2025T16:17:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/div_Invalid usernamepassword. Please try again' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Login/2. Login tanpa memilih lokasi" time="41.12" classname="Test Cases/1. Login/2. Login tanpa memilih lokasi" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:17:50 - [TEST_CASE][PASSED] - Test Cases/1. Login/2. Login tanpa memilih lokasi: Test Cases/1. Login/2. Login tanpa memilih lokasi
+
+13-04-2025T16:17:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:17:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:17:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:17:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:17:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:17:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:17:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:17:51 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:17:51 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:56 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:17:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:18:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:18:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:18:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:18:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:18:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:18:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:18:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:18:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:18:02 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:18:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:18:30 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:18:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:18:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:18:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:18:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:18:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login/span_You must choose a location"), "You must choose a location!"): Actual text and expected text of test object 'Object Repository/Page_Login/span_You must choose a location' are matched.
+
+13-04-2025T16:18:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/span_You must choose a location' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Login/3. Login menggunakan valid credential" time="81.31" classname="Test Cases/1. Login/3. Login menggunakan valid credential" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:18:31 - [TEST_CASE][PASSED] - Test Cases/1. Login/3. Login menggunakan valid credential: Test Cases/1. Login/3. Login menggunakan valid credential
+
+13-04-2025T16:18:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:18:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:18:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:18:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:18:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:18:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:18:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:18:34 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:18:34 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:19:14 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:19:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:19:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:19:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:19:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:19:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:19:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:19:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:19:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:19:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:19:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:19:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:19:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:19:20 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:19:20 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:19:47 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:19:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:19:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:19:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:19:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:19:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:19:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Home/span_Pharmacy"), "Pharmacy"): Actual text and expected text of test object 'Object Repository/Page_Home/span_Pharmacy' are matched.
+
+13-04-2025T16:19:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Home/span_Pharmacy' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-04-2025T16:17:24 - [TEST_SUITE][PASSED] - 1.TS_Login: Test Cases/1. Login/3. Login menggunakan valid credential]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

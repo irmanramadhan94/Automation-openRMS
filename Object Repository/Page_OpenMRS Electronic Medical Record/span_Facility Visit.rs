@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Facility Visit</name>
+   <tag></tag>
+   <elementGuidId>10d61ce0-1206-4cbd-b936-4b0143248440</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='visittype-tag-N/A']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;OpenMRS ID: 100JVK irman ramadhan ZPNWq2sg Vitals Inpatient Ward @ 12.Apr.2025, 17:20:08 Facility Visit&quot;i] >> [id=&quot;visittype-tag-N\/A&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1672faee-3928-4796-a731-973ffd76285a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>visittype-tag-N/A</value>
+      <webElementGuid>966c53a0-7c41-40e6-b7fb-2526bcf36271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tag</value>
+      <webElementGuid>1663ae84-43c3-466b-9e03-cc389d3f057e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Facility Visit
+                        </value>
+      <webElementGuid>f0178ff6-b4e9-45ed-bd70-b0d1fa3060b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;visit-2419&quot;)/td[5]/span[@id=&quot;visittype-tag-N/A&quot;]</value>
+      <webElementGuid>608a1cd8-775f-4099-beeb-b4d31ab53cc6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='visittype-tag-N/A']</value>
+      <webElementGuid>6104a373-a194-4909-892b-501db0ce1138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='visit-2419']/td[5]/span[2]</value>
+      <webElementGuid>861975b8-26f6-4a53-9a32-9ee95845f898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inpatient Ward @ 12.Apr.2025, 17:20:08'])[1]/following::span[2]</value>
+      <webElementGuid>41d1448e-d4cf-4d69-b534-6f413f2e4b16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OpenMRS ID: 100K0A'])[1]/preceding::span[1]</value>
+      <webElementGuid>ba7bfbe2-599b-422f-be24-a308edfc2d37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='irman ramadhan QVIqva4U'])[1]/preceding::span[1]</value>
+      <webElementGuid>05e33b62-42bc-46bd-9420-feeeb38e9887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>94ee8c27-a32a-4dd1-869b-25fdc5c060de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'visittype-tag-N/A' and (text() = '
+                            Facility Visit
+                        ' or . = '
+                            Facility Visit
+                        ')]</value>
+      <webElementGuid>1ac16263-8da7-4cc3-80c4-01f048239195</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

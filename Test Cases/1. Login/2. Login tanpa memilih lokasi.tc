@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Login tanpa memilih lokasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fe3364c-e86a-4195-a4e8-289aa94ae40b</testCaseGuid>
+</TestCaseEntity>

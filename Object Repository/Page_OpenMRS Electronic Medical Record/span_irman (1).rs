@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_irman (1)</name>
+   <tag></tag>
+   <elementGuidId>6e30ea3f-133a-4042-90c7-8c58eaa2a03f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.PersonName-givenName</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[6]/div/div/div/h1/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4d04628d-a06e-4f96-9614-4b89d9dbdac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PersonName-givenName</value>
+      <webElementGuid>5c54a4c7-8365-4719-a88d-73eea37ed445</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                irman
+                            </value>
+      <webElementGuid>4abfa561-7766-46ef-9a52-9b3033b229ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;patient-header row&quot;]/div[@class=&quot;demographics col-12 col-sm-7 col-md-8&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-12 col-sm-auto&quot;]/h1[@class=&quot;mt-0 mb-2 name&quot;]/span[@class=&quot;labeled&quot;]/span[@class=&quot;PersonName-givenName&quot;]</value>
+      <webElementGuid>2b89cebe-d2e8-4b45-a4bb-bd792448cc5c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[6]/div/div/div/h1/span/span</value>
+      <webElementGuid>924f362d-a61a-4fd0-bfe1-e75e405fa4de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[4]/following::span[2]</value>
+      <webElementGuid>a2408b22-4fe3-41d5-9c74-13879fa70fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[3]/following::span[2]</value>
+      <webElementGuid>697cf153-5134-4b31-82c7-bf31e8ca6d6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Given'])[1]/preceding::span[1]</value>
+      <webElementGuid>b3f05da5-b294-4395-959f-2d41b97e40b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ramadhan'])[1]/preceding::span[1]</value>
+      <webElementGuid>a7f7aa56-62ba-4c3e-b636-99daac3ebadd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='irman']/parent::*</value>
+      <webElementGuid>7a4eb571-2784-45bf-a2f0-080d20fa410b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span/span</value>
+      <webElementGuid>c247e59a-acad-4b7e-a796-ebaed9fda904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+                                irman
+                            ' or . = '
+                                irman
+                            ')]</value>
+      <webElementGuid>cefbb5cf-2935-4c5b-a782-125e95ce6048</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

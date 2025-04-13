@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+5.TS_Capture_Vitals,Chrome 135.0.7049.42,,,13-04-2025 16:37:42,13-04-2025 16:42:28,4m - 46.167s,FAILED
+,,,,,,,
+Test Cases/5. Capture Vitals/1. Admin dapat search Capture Vitals Patient,Chrome 135.0.7049.42,,,13-04-2025 16:39:47,13-04-2025 16:40:23,35.946s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:39:47,13-04-2025 16:40:17,30.344s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Capture Vitals""))",Chrome 135.0.7049.42,,,13-04-2025 16:40:17,13-04-2025 16:40:20,3.094s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Capture Vitals for Patient_patient-search""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:40:20,13-04-2025 16:40:21,0.563s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h2_Capture Vitals for Patient""), ""Capture Vitals for Patient"")",Chrome 135.0.7049.42,,,13-04-2025 16:40:21,13-04-2025 16:40:21,0.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Identifier (1)""), ""Identifier"")",Chrome 135.0.7049.42,,,13-04-2025 16:40:21,13-04-2025 16:40:22,0.842s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Name (2)""), ""Name"")",Chrome 135.0.7049.42,,,13-04-2025 16:40:22,13-04-2025 16:40:22,0.252s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe""), ""irman ramadhan lDoikmTe"")",Chrome 135.0.7049.42,,,13-04-2025 16:40:22,13-04-2025 16:40:23,0.545s,FAILED
+,,,,,,,
+Test Cases/5. Capture Vitals/2. Admin dapat Record Vitals Patient,Chrome 135.0.7049.42,,,13-04-2025 16:40:58,13-04-2025 16:42:28,1m - 29.949s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:40:58,13-04-2025 16:41:39,41.433s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Capture Vitals (1) (1)""))",Chrome 135.0.7049.42,"skenario ini saling dependensi dengan skenario 
+1. Mendaftarkan pasien baru
+2. Start Visit Pasien",,13-04-2025 16:41:39,13-04-2025 16:41:43,4.175s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Capture Vitals for Patient_patient-search (1) (1)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:43,13-04-2025 16:41:44,0.546s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe (1) (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:41:44,13-04-2025 16:41:44,0.271s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe (1) (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:44,13-04-2025 16:41:48,3.339s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/i_Yes, Record Vitals_icon-arrow-right (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:48,13-04-2025 16:41:52,4.367s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Height (cm)_w8 (1)""), ""165"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:52,13-04-2025 16:41:53,0.548s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:53,13-04-2025 16:41:53,0.298s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Weight (kg)_w10 (1)""), ""70"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:53,13-04-2025 16:41:53,0.536s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:53,13-04-2025 16:41:54,0.306s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:54,13-04-2025 16:41:54,0.507s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Temperature (c)_w12 (1)""), ""27"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:54,13-04-2025 16:41:55,0.576s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:55,13-04-2025 16:41:55,0.288s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Pulse_w14 (1)""), ""100"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:55,13-04-2025 16:41:56,0.569s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:56,13-04-2025 16:41:56,0.291s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Respiratory rate_w16 (1)""), ""99"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:56,13-04-2025 16:41:56,0.563s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:56,13-04-2025 16:41:57,0.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Blood Pressure_w18 (1)""), ""100"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:57,13-04-2025 16:41:57,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Blood Pressure_w20 (1)""), ""70"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:57,13-04-2025 16:41:58,0.531s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:58,13-04-2025 16:41:58,0.298s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Arterial blood oxygen saturation (pul_224004 (1)""), ""99"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:58,13-04-2025 16:41:59,0.655s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Please enter at least one observatio_633184 (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:41:59,13-04-2025 16:41:59,0.338s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Height (cm) 165 cm (1)""), ""Height (cm): 165 cm"")",Chrome 135.0.7049.42,,,13-04-2025 16:41:59,13-04-2025 16:42:00,0.499s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Weight (kg) 70 kg (1)""), ""Weight (kg): 70 kg"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:00,13-04-2025 16:42:00,0.259s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_(Calculated) BMI 25.7 (1)""), ""(Calculated) BMI: 25.7"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:00,13-04-2025 16:42:00,0.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Temperature (c) 27 C (1)""), ""Temperature (c): 27 °C"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:00,13-04-2025 16:42:00,0.268s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Pulse 100 min (1)""), ""Pulse: 100 /min"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:00,13-04-2025 16:42:01,0.269s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Respiratory rate 99 min (1)""), ""Respiratory rate: 99 /min"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:01,13-04-2025 16:42:01,0.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Blood Pressure 100  70 (1)""), ""Blood Pressure: 100 / 70"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:01,13-04-2025 16:42:01,0.253s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Arterial blood oxygen saturation (pulse o_5bf421 (1)""), ""Arterial blood oxygen saturation (pulse oximeter): 99 %"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:01,13-04-2025 16:42:02,0.282s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Save_cancel focused (1)""), """")",Chrome 135.0.7049.42,,,13-04-2025 16:42:02,13-04-2025 16:42:02,0.278s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Save (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:42:02,13-04-2025 16:42:02,0.312s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Capture Vitals for Patient_patient-search (1) (1)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:02,13-04-2025 16:42:05,2.730s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe (1) (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:42:05,13-04-2025 16:42:05,0.263s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe (1) (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:42:05,13-04-2025 16:42:07,2.330s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_Pharmacy (1)""), ""Pharmacy"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:07,13-04-2025 16:42:08,0.878s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_Super User (admin) (1)""), ""Super User (admin)"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:08,13-04-2025 16:42:09,0.255s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/i_Registration Desk_icon-home small (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:42:09,13-04-2025 16:42:10,1.309s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record (3) (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:42:10,13-04-2025 16:42:12,1.667s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Capture Vitals for Patient_patient-search (1) (1)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:12,13-04-2025 16:42:12,0.945s,PASSED
+delay(5),Chrome 135.0.7049.42,,,13-04-2025 16:42:12,13-04-2025 16:42:18,5.020s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan lDoikmTe (1) (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:42:18,13-04-2025 16:42:24,6.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (2) (1)""), ""LATEST OBSERVATIONS"")",Chrome 135.0.7049.42,,,13-04-2025 16:42:24,13-04-2025 16:42:28,3.979s,PASSED

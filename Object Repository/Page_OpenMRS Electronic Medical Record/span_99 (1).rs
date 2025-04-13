@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_99 (1)</name>
+   <tag></tag>
+   <elementGuidId>2c6a449a-0e15-4c47-8a70-50684eff64f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#respiratory_rate > span.value</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='respiratory_rate']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#respiratory_rate >> internal:text=&quot;99&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fab91336-d010-4638-99c5-b57421fc81e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>value</value>
+      <webElementGuid>f7267c9e-97ea-4fe0-b25c-fc6469bcc83d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>99</value>
+      <webElementGuid>67a8cc6b-f56f-4a04-88b8-348716fed738</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;respiratory_rate&quot;)/span[@class=&quot;value&quot;]</value>
+      <webElementGuid>b743fdca-b5d2-4cf3-a946-a72808bcefee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='respiratory_rate']/span</value>
+      <webElementGuid>0d591386-c768-416b-83dd-cefd391ff817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respiratory rate'])[2]/following::span[2]</value>
+      <webElementGuid>e0db4f2b-a751-482c-80b4-fe48973b2661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respiratory rate'])[1]/following::span[2]</value>
+      <webElementGuid>fa665ea3-6060-4928-ab50-8c4f35977dc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/min'])[2]/preceding::span[1]</value>
+      <webElementGuid>25a2c317-1299-4953-9c38-3da41f63343b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blood Pressure'])[1]/preceding::span[2]</value>
+      <webElementGuid>c53f9ca7-a910-4b63-ab2b-fec2ac2eaab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='99']/parent::*</value>
+      <webElementGuid>42da644a-b3fc-47e1-ad96-86f5afc55e24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[6]/p/span/span</value>
+      <webElementGuid>3f642d44-0725-4958-9955-01320ce8e0c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '99' or . = '99')]</value>
+      <webElementGuid>3d10bfbe-8fdb-426d-9638-c08cdc02eac2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

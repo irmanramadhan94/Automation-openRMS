@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit</name>
+   <tag></tag>
+   <elementGuidId>b973e6f6-b292-4253-8ef9-439cc061b324</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#edit-patient-demographics > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='edit-patient-demographics']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Edit&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8a1a4a27-516c-4867-b58a-9b9c5f211f28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/openmrs/registrationapp/editSection.page?patientId=520&amp;sectionId=demographics&amp;appId=referenceapplication.registrationapp.registerPatient&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fclinicianfacing%2Fpatient.page%3FpatientId%3D9bbb18e5-e974-484f-a92f-e7b34b30a1f6%26</value>
+      <webElementGuid>0a07f8d5-3208-40bb-808c-ccbac045ef78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>7acb56dd-aa30-4dd4-b47d-1b1628204202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        
+         Edit 
+    </value>
+      <webElementGuid>64b952a0-cded-43ee-a378-a5bb64b34e65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;edit-patient-demographics&quot;)/a[1]</value>
+      <webElementGuid>9cb47415-b297-4615-82f6-d07051ce8155</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='edit-patient-demographics']/a</value>
+      <webElementGuid>5974dd2f-dc71-46f0-97c9-22137a905b70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Edit')]</value>
+      <webElementGuid>566e1567-e013-44ba-b66e-21193535c326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Family Name'])[1]/following::a[1]</value>
+      <webElementGuid>01296d9e-688b-4d02-9fe8-bae68f23cbe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Contact Info'])[1]/preceding::a[1]</value>
+      <webElementGuid>88f67c5a-2281-4943-aa36-c5ca3d510b97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Contact Info'])[1]/preceding::a[1]</value>
+      <webElementGuid>3daf1a96-b127-47c8-a3b1-73a2d66eddd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+      <webElementGuid>0ea48ae9-5e17-41d4-80a6-1fba6730bb7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/openmrs/registrationapp/editSection.page?patientId=520&amp;sectionId=demographics&amp;appId=referenceapplication.registrationapp.registerPatient&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fclinicianfacing%2Fpatient.page%3FpatientId%3D9bbb18e5-e974-484f-a92f-e7b34b30a1f6%26')]</value>
+      <webElementGuid>17769e9c-ec75-4f5f-9082-a67929233b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/a</value>
+      <webElementGuid>c05d46df-dc20-46fe-a642-c62e230ca6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/openmrs/registrationapp/editSection.page?patientId=520&amp;sectionId=demographics&amp;appId=referenceapplication.registrationapp.registerPatient&amp;returnUrl=%2Fopenmrs%2Fcoreapps%2Fclinicianfacing%2Fpatient.page%3FpatientId%3D9bbb18e5-e974-484f-a92f-e7b34b30a1f6%26' and (text() = '
+        
+         Edit 
+    ' or . = '
+        
+         Edit 
+    ')]</value>
+      <webElementGuid>23833423-edd5-48af-bb68-57c1417e6bc9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

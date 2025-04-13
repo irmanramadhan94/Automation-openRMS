@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_ALLERGIES</name>
+   <tag></tag>
+   <elementGuidId>9c9cc85f-0153-41c4-9bf1-1193172cb34d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[9]/div/div/div[2]/div[5]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.info-section.allergies > div.info-header > h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>9a2117f1-50cc-4762-80ff-5207a0cb0987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ALLERGIES</value>
+      <webElementGuid>b27a04c0-5947-4622-8362-e5758f809a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;dashboard clear row&quot;]/div[@class=&quot;col-12 col-lg-9&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-lg-6&quot;]/div[@class=&quot;info-section allergies&quot;]/div[@class=&quot;info-header&quot;]/h3[1]</value>
+      <webElementGuid>d7083a69-e8df-4782-b885-43a16b75c867</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[9]/div/div/div[2]/div[5]/div/h3</value>
+      <webElementGuid>6d701777-4c55-4166-9ed3-67a11540648d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Load more'])[1]/following::h3[1]</value>
+      <webElementGuid>96b5186a-fd7a-49c7-8a80-eed098a9ff26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATTACHMENTS'])[1]/following::h3[1]</value>
+      <webElementGuid>7c86b0ce-6a9b-43ab-b252-19d6af7c5f17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unknown'])[1]/preceding::h3[1]</value>
+      <webElementGuid>c5f43473-3f4d-434c-8799-e8c39ba4b758</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Actions'])[1]/preceding::h3[1]</value>
+      <webElementGuid>c24b72f8-fdd4-4eed-aff4-2426c04b24c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ALLERGIES']/parent::*</value>
+      <webElementGuid>ccabd9f5-6776-48b4-8ee3-6633d73030db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]/div/h3</value>
+      <webElementGuid>8eab638c-03de-403f-856d-aa4836dc8ee2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'ALLERGIES' or . = 'ALLERGIES')]</value>
+      <webElementGuid>f27ca31a-1c68-4c35-a20e-3e1946244178</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

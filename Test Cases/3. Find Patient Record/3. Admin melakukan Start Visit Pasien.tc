@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3. Admin melakukan Start Visit Pasien</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1dbcf04b-f8ab-4e7a-a3ae-a14e1cfe1e50</testCaseGuid>
+</TestCaseEntity>

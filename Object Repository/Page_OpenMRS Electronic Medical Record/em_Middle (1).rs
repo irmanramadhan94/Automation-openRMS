@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Middle (1)</name>
+   <tag></tag>
+   <elementGuidId>72dab110-798f-4dd7-997e-457e4122b69a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[6]/div/div/div/h1/span[2]/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>bad758dd-d5dd-4d61-b89c-5e0dfc571d27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Middle</value>
+      <webElementGuid>77a43614-686e-49c8-961b-7863038c5bc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;patient-header row&quot;]/div[@class=&quot;demographics col-12 col-sm-7 col-md-8&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-12 col-sm-auto&quot;]/h1[@class=&quot;mt-0 mb-2 name&quot;]/span[@class=&quot;labeled&quot;]/em[1]</value>
+      <webElementGuid>c5884adb-d58e-4175-aecd-8fc8ac983328</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[6]/div/div/div/h1/span[2]/em</value>
+      <webElementGuid>25064018-51d5-48f9-bc58-569897a16790</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ramadhan'])[1]/following::em[1]</value>
+      <webElementGuid>b6226788-eb05-4a31-b656-8541e71af18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Given'])[1]/following::em[1]</value>
+      <webElementGuid>00b36f1b-8610-4d5d-948e-3c77f17021c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rama'])[1]/preceding::em[1]</value>
+      <webElementGuid>a43dd258-209c-4280-ac3b-f83902b52a7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Family Name'])[1]/preceding::em[1]</value>
+      <webElementGuid>ec6945c7-f134-4e08-9327-15f9da3cdada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Middle']/parent::*</value>
+      <webElementGuid>a7c38951-3c78-4c47-8081-9892bc5e4001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/em</value>
+      <webElementGuid>b455327a-004d-4f4a-bae9-3bcb640a9463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Middle' or . = 'Middle')]</value>
+      <webElementGuid>3b851dc7-0a6e-4be7-b87e-c537ba477383</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,138 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3.TS_Find_Patient_Record,Chrome 135.0.7049.42,,,13-04-2025 16:22:47,13-04-2025 16:28:35,5m - 47.676s,PASSED
+,,,,,,,
+Test Cases/3. Find Patient Record/1. Search Patient by Name,Chrome 135.0.7049.42,,,13-04-2025 16:22:47,13-04-2025 16:23:31,43.690s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:22:47,13-04-2025 16:23:21,33.953s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:23:21,13-04-2025 16:23:27,5.531s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (1)""), ""Nindy Silvi Kusumaningrum"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:27,13-04-2025 16:23:27,0.600s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_100J27Recent""), 5)",Chrome 135.0.7049.42,,,13-04-2025 16:23:27,13-04-2025 16:23:28,0.571s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama""), ""Nindy Silvi Kusumaningrum"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:28,13-04-2025 16:23:28,0.566s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_M""), ""F"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:28,13-04-2025 16:23:29,0.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_31""), ""22"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:29,13-04-2025 16:23:29,0.276s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/birthDate""), ""   13 Sep 2002"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:29,13-04-2025 16:23:29,0.267s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Identifier""), ""Identifier"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:29,13-04-2025 16:23:29,0.264s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Name""), ""Name"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:29,13-04-2025 16:23:30,0.277s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Gender""), ""Gender"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:30,13-04-2025 16:23:30,0.267s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Age""), ""Age"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:30,13-04-2025 16:23:30,0.254s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Birthdate""), ""Birthdate"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:30,13-04-2025 16:23:31,0.244s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h2_Find Patient Record""), ""Find Patient Record"")",Chrome 135.0.7049.42,,,13-04-2025 16:23:31,13-04-2025 16:23:31,0.275s,PASSED
+,,,,,,,
+Test Cases/3. Find Patient Record/2. Patient Information,Chrome 135.0.7049.42,,,13-04-2025 16:23:31,13-04-2025 16:24:37,1m - 6.117s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:23:31,13-04-2025 16:24:02,30.971s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record (2)""))",Chrome 135.0.7049.42,,,13-04-2025 16:24:02,13-04-2025 16:24:06,3.857s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (2)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:06,13-04-2025 16:24:06,0.600s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:24:06,13-04-2025 16:24:07,1.143s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:24:07,13-04-2025 16:24:20,12.354s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (1)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:20,13-04-2025 16:24:26,6.466s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (1)""), ""ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:26,13-04-2025 16:24:27,0.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Given (1)""), ""Given"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:27,13-04-2025 16:24:27,0.320s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Middle (1)""), ""Middle"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:27,13-04-2025 16:24:27,0.286s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Family Name (1)""), ""Family Name"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:27,13-04-2025 16:24:27,0.263s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (1)""), ""Male "")",Chrome 135.0.7049.42,,,13-04-2025 16:24:27,13-04-2025 16:24:28,0.263s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (1)""), ""31 year(s) ( 04.Mar.1994)"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:28,13-04-2025 16:24:28,0.294s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Patient ID (1)""), ""Patient ID"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:28,13-04-2025 16:24:28,0.303s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_100LDG (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:24:28,13-04-2025 16:24:29,0.273s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_DIAGNOSES (1)""), ""DIAGNOSES"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:29,13-04-2025 16:24:29,0.289s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None in the last 730 days (1)""), ""None in the last 730 days"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:29,13-04-2025 16:24:29,0.291s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (1)""), ""LATEST OBSERVATIONS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:29,13-04-2025 16:24:29,0.298s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None in the last   30  days              _127cd3 (1)""), ""None in the last 30 days None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:29,13-04-2025 16:24:30,0.307s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_HEALTH TREND SUMMARY (1)""), ""HEALTH TREND SUMMARY"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:30,13-04-2025 16:24:30,0.263s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_WEIGHT GRAPH (1)""), ""WEIGHT GRAPH"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:30,13-04-2025 16:24:30,0.270s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/strong_Weight (kg) (1)""), ""Weight (kg)"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:30,13-04-2025 16:24:31,0.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_None in the last   365  days (1)""), ""None in the last 365 days"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:31,13-04-2025 16:24:31,0.276s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_VITALS (1)""), ""VITALS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:31,13-04-2025 16:24:31,0.283s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:31,13-04-2025 16:24:31,0.284s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_APPOINTMENTS (1)""), ""APPOINTMENTS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:31,13-04-2025 16:24:32,0.302s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None_1 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:32,13-04-2025 16:24:32,0.281s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_RECENT VISITS (1)""), ""RECENT VISITS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:32,13-04-2025 16:24:32,0.290s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:32,13-04-2025 16:24:33,0.283s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_FAMILY (1)""), ""FAMILY"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:33,13-04-2025 16:24:33,0.297s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:33,13-04-2025 16:24:33,0.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_CONDITIONS (1)""), ""CONDITIONS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:33,13-04-2025 16:24:33,0.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1_2 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:33,13-04-2025 16:24:34,0.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_ATTACHMENTS (1)""), ""ATTACHMENTS"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:34,13-04-2025 16:24:34,0.262s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_ALLERGIES (1)""), ""ALLERGIES"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:34,13-04-2025 16:24:34,0.294s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Unknown (1)""), ""Unknown"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:34,13-04-2025 16:24:35,0.264s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_General Actions (1)""), ""General Actions"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:35,13-04-2025 16:24:35,0.245s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (2)""), ""Start Visit"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:35,13-04-2025 16:24:35,0.261s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Add Past Visit (1)""), ""Add Past Visit"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:35,13-04-2025 16:24:35,0.254s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Schedule Appointment (1)""), ""Schedule Appointment"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:35,13-04-2025 16:24:36,0.259s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Request Appointment (1)""), ""Request Appointment"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:36,13-04-2025 16:24:36,0.286s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Mark Patient Deceased (1)""), ""Mark Patient Deceased"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:36,13-04-2025 16:24:36,0.250s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Edit Registration Information (1)""), ""Edit Registration Information"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:36,13-04-2025 16:24:36,0.284s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (1)""), ""Delete Patient"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:36,13-04-2025 16:24:37,0.279s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Attachments (1)""), ""Attachments"")",Chrome 135.0.7049.42,,,13-04-2025 16:24:37,13-04-2025 16:24:37,0.276s,PASSED
+,,,,,,,
+Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien,Chrome 135.0.7049.42,,,13-04-2025 16:25:59,13-04-2025 16:27:01,1m - 2.161s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:25:59,13-04-2025 16:26:37,37.862s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record""))",Chrome 135.0.7049.42,,,13-04-2025 16:26:37,13-04-2025 16:26:40,3.020s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:26:40,13-04-2025 16:26:40,0.551s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U""), 0)",Chrome 135.0.7049.42,,,13-04-2025 16:26:40,13-04-2025 16:26:41,0.297s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U""))",Chrome 135.0.7049.42,,,13-04-2025 16:26:41,13-04-2025 16:26:49,8.216s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:26:49,13-04-2025 16:26:54,5.212s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm""))",Chrome 135.0.7049.42,,,13-04-2025 16:26:54,13-04-2025 16:26:55,0.496s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Outpatient""), ""Outpatient"")",Chrome 135.0.7049.42,,,13-04-2025 16:26:55,13-04-2025 16:27:00,4.910s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/li_Visits""), ""Visits"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:00,13-04-2025 16:27:00,0.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_End Visit""), ""End Visit"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:00,13-04-2025 16:27:00,0.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Visit Note""), ""Visit Note"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:00,13-04-2025 16:27:00,0.262s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Admit to Inpatient""), ""Admit to Inpatient"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:00,13-04-2025 16:27:01,0.252s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Capture Vitals""), ""Capture Vitals"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:01,13-04-2025 16:27:01,0.265s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Attachments""), ""Attachments"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:01,13-04-2025 16:27:01,0.264s,PASSED
+,,,,,,,
+Test Cases/3. Find Patient Record/4. User dapat edit demographics pasien,Chrome 135.0.7049.42,,,13-04-2025 16:27:01,13-04-2025 16:28:35,1m - 33.433s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:27:01,13-04-2025 16:27:41,39.536s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record""))",Chrome 135.0.7049.42,,,13-04-2025 16:27:41,13-04-2025 16:27:43,2.385s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:27:43,13-04-2025 16:27:44,0.510s,PASSED
+delay(5),Chrome 135.0.7049.42,,,13-04-2025 16:27:44,13-04-2025 16:27:49,5.030s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U""))",Chrome 135.0.7049.42,,,13-04-2025 16:27:49,13-04-2025 16:27:57,8.252s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit""))",Chrome 135.0.7049.42,,,13-04-2025 16:27:57,13-04-2025 16:28:02,4.833s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:28:02,13-04-2025 16:28:02,0.683s,PASSED
+"clearText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:02,13-04-2025 16:28:03,0.272s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)""), ""edited"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:03,13-04-2025 16:28:03,0.524s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:03,13-04-2025 16:28:04,0.314s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female (1)""), ""F"", true)",Chrome 135.0.7049.42,,,13-04-2025 16:28:04,13-04-2025 16:28:04,0.821s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:04,13-04-2025 16:28:05,0.303s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:05,13-04-2025 16:28:05,0.293s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:05,13-04-2025 16:28:05,0.405s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""), ""5"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:05,13-04-2025 16:28:06,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:06,13-04-2025 16:28:06,0.295s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Gender Female""), ""Gender: Female"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:06,13-04-2025 16:28:07,0.448s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Birthdate 5, March, 1994""), ""Birthdate: 5, March, 1994"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:07,13-04-2025 16:28:07,0.265s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h2_Demographics""), ""Demographics"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:07,13-04-2025 16:28:07,0.266s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:07,13-04-2025 16:28:10,2.573s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:10,13-04-2025 16:28:12,2.422s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)""), ""ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:12,13-04-2025 16:28:12,0.245s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Male                                   _7b49c2""), ""Male  31 year(s) ( 04.Mar.1994) Edit"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:12,13-04-2025 16:28:13,0.258s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:13,13-04-2025 16:28:14,1.195s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:28:14,13-04-2025 16:28:15,0.677s,PASSED
+"clearText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:15,13-04-2025 16:28:15,0.260s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1""), ""edited"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:15,13-04-2025 16:28:15,0.530s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:15,13-04-2025 16:28:16,0.279s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1""), 10, STOP_ON_FAILURE)",Chrome 135.0.7049.42,,,13-04-2025 16:28:16,13-04-2025 16:28:16,0.249s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:16,13-04-2025 16:28:16,0.283s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1""), ""F"", true)",Chrome 135.0.7049.42,,,13-04-2025 16:28:16,13-04-2025 16:28:17,0.772s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:17,13-04-2025 16:28:17,0.260s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:17,13-04-2025 16:28:17,0.278s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""), ""5"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:17,13-04-2025 16:28:18,0.519s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:18,13-04-2025 16:28:18,0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:18,13-04-2025 16:28:21,2.354s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:21,13-04-2025 16:28:23,2.131s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_edited""), ""edited"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:23,13-04-2025 16:28:23,0.236s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_Female""), ""Female "")",Chrome 135.0.7049.42,,,13-04-2025 16:28:23,13-04-2025 16:28:23,0.253s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _27b454""), ""31 year(s) ( 05.Mar.1994)"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:23,13-04-2025 16:28:24,0.270s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:24,13-04-2025 16:28:25,1.177s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:28:25,13-04-2025 16:28:25,0.675s,PASSED
+"clearText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:25,13-04-2025 16:28:26,0.248s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_(required)_givenName (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:26,13-04-2025 16:28:26,0.299s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2""), ""ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:26,13-04-2025 16:28:26,0.516s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:26,13-04-2025 16:28:27,0.262s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1_2""), ""M"", true)",Chrome 135.0.7049.42,,,13-04-2025 16:28:27,13-04-2025 16:28:28,0.805s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:28,13-04-2025 16:28:28,0.285s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:28,13-04-2025 16:28:28,0.294s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay""), ""4"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:28,13-04-2025 16:28:29,0.528s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:29,13-04-2025 16:28:29,0.280s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:28:29,13-04-2025 16:28:32,2.667s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:32,13-04-2025 16:28:34,2.296s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)""), ""ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:34,13-04-2025 16:28:34,0.244s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (2)""), ""Male "")",Chrome 135.0.7049.42,,,13-04-2025 16:28:34,13-04-2025 16:28:34,0.261s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (2)""), ""31 year(s) ( 04.Mar.1994)"")",Chrome 135.0.7049.42,,,13-04-2025 16:28:34,13-04-2025 16:28:35,0.246s,PASSED

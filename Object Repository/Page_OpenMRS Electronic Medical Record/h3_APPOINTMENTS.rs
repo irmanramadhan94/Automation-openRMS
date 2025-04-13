@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_APPOINTMENTS</name>
+   <tag></tag>
+   <elementGuidId>863308e7-85c1-4b06-b026-13b2d4bb341c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'APPOINTMENTS' or . = 'APPOINTMENTS')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[9]/div/div/div/div[6]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>8999e21d-7142-41cf-8788-f0745d7f5939</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>APPOINTMENTS</value>
+      <webElementGuid>86f08c7b-2492-4884-adab-233da803aa46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;dashboard clear row&quot;]/div[@class=&quot;col-12 col-lg-9&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 col-lg-6&quot;]/div[@class=&quot;info-section&quot;]/div[@class=&quot;info-header&quot;]/h3[1]</value>
+      <webElementGuid>304a33ad-3a49-4fa2-8e0b-65c8d76ee567</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[9]/div/div/div/div[6]/div/h3</value>
+      <webElementGuid>64b3af00-bc52-4b98-ae8b-46e51d4a2bd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[3]/following::h3[1]</value>
+      <webElementGuid>13e2394a-c86e-4679-869f-b736b81275f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VITALS'])[1]/following::h3[1]</value>
+      <webElementGuid>a20e33f1-1c92-4d1a-bff3-cdb7f4976069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[4]/preceding::h3[1]</value>
+      <webElementGuid>6abb71a1-58e9-4cfd-ba1c-cf0b782007cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RECENT VISITS'])[1]/preceding::h3[1]</value>
+      <webElementGuid>e2c35372-3699-46a1-a71f-2cb0f5cb69e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='APPOINTMENTS']/parent::*</value>
+      <webElementGuid>f7e2dc08-605a-45ec-88e1-eaa511794651</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/h3</value>
+      <webElementGuid>6432040d-3bdf-46af-92da-e51d36454c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'APPOINTMENTS' or . = 'APPOINTMENTS')]</value>
+      <webElementGuid>2c039c3c-3314-4f80-8db2-3b506ff8f28c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

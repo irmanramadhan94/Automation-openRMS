@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Registration Desk_icon-home small (1)</name>
+   <tag></tag>
+   <elementGuidId>adf6dbca-cafa-452b-9a52-edfe07f964c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-home.small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='breadcrumbs']/li/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1ad892e4-4f9e-4a50-b7fb-bfa1dedff658</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-home small</value>
+      <webElementGuid>da0d3ed9-80b8-4f4a-b09b-3f4b35c4712a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;breadcrumbs&quot;)/li[1]/a[1]/i[@class=&quot;icon-home small&quot;]</value>
+      <webElementGuid>ff3cdb2b-e39d-48c7-afb8-2a40389b9470</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='breadcrumbs']/li/a/i</value>
+      <webElementGuid>66724c17-7b33-4b2a-b707-f1898f02c86e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/ul/li/a/i</value>
+      <webElementGuid>484d1ab7-47fa-4848-afd2-745799033c87</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_Confirm submission_fas fa-chevron-right</name>
+   <tag></tag>
+   <elementGuidId>97683572-1de9-4584-8ee8-8c26f1c76634</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='next-button']/icon</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>icon.fas.fa-chevron-right</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>icon</value>
+      <webElementGuid>288c7af6-0d4d-4f5b-a2b6-4cb24750618e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-chevron-right</value>
+      <webElementGuid>33c74987-0d68-4a8a-8849-e1d24245db90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;next-button&quot;)/icon[@class=&quot;fas fa-chevron-right&quot;]</value>
+      <webElementGuid>1d586c75-3071-40ef-ae90-93d52972ac4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='next-button']/icon</value>
+      <webElementGuid>f17a3508-419a-40c8-8db5-f401eaee0b44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/icon</value>
+      <webElementGuid>0bebeca4-7f93-4347-98a7-b5d47ae4b2c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

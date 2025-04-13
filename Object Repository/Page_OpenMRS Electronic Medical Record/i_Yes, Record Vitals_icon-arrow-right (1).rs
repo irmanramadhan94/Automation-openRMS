@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Yes, Record Vitals_icon-arrow-right (1)</name>
+   <tag></tag>
+   <elementGuidId>9bb7c7f2-6029-40f0-a41e-c1038414f6c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-arrow-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='coreapps-vitals-confirm']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Yes, Record Vitals&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5bb598b7-e1ed-40b8-9009-9c6d1bb2155a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-arrow-right</value>
+      <webElementGuid>e10be2aa-8010-4635-83f9-c99e064300e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-vitals-confirm&quot;)/i[@class=&quot;icon-arrow-right&quot;]</value>
+      <webElementGuid>786af926-58f4-44ee-a6b5-e9b143c0d0fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='coreapps-vitals-confirm']/i</value>
+      <webElementGuid>ffe3c3fb-bc65-4158-9a10-0667e586e382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>801915ba-4293-4e3f-af99-6cd076929483</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

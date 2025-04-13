@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_None_1 (1)</name>
+   <tag></tag>
+   <elementGuidId>7c712ffd-3811-4194-9c23-d2d8bd081419</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>relationships.ng-isolate-scope > ul > p.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='FAMILY'])[1]/following::p[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>48e54116-6bb3-4bf5-a937-2d69067501a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>$ctrl.relationships.length == 0</value>
+      <webElementGuid>1572b29c-62a6-4102-9fdc-c3910a7a7f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>3174e4d9-0505-4c44-989b-bad5d5eeafde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        None
+    </value>
+      <webElementGuid>ccc43ecc-d83c-4478-b97e-aa2fdf4dec28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-fr8021&quot;)/div[@class=&quot;info-body&quot;]/relationships[@class=&quot;ng-isolate-scope&quot;]/ul[1]/p[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>78d65c5e-9f25-4e9a-9424-a286c1b76392</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='coreapps-fr8021']/div[2]/relationships/ul/p</value>
+      <webElementGuid>0adbfa7b-1b3b-42b6-8a75-ae0e269ae464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAMILY'])[1]/following::p[1]</value>
+      <webElementGuid>deac039c-d0f2-4f49-9c45-958ec8d74e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RECENT VISITS'])[1]/following::p[2]</value>
+      <webElementGuid>c5b8abc5-4a36-4dd3-8215-9a94ca69b088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to remove this relationship?'])[1]/preceding::p[1]</value>
+      <webElementGuid>342ca32b-b725-4f06-a107-664862e756e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add new relationship'])[1]/preceding::p[1]</value>
+      <webElementGuid>00be192b-7542-4e77-beb1-ae6a8e2e4e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//relationships/ul/p</value>
+      <webElementGuid>78c47838-8d40-4203-9b09-5a327f8e9878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '
+        None
+    ' or . = '
+        None
+    ')]</value>
+      <webElementGuid>356e93fa-a856-455e-b86e-422426218fe8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

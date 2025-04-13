@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Admin dapat Record Vitals Patient</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51cbebe8-aa88-4b4f-b152-128daf797e42</testCaseGuid>
+</TestCaseEntity>

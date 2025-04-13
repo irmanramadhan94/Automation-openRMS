@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Type of visit</name>
+   <tag></tag>
+   <elementGuidId>380f48fc-afdf-4b45-ad95-a0356b169d37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='active-visits']/thead/tr/th[5]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Type of visit&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>40fc10d5-76ff-42db-be73-cad78d15920b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>DataTables_sort_wrapper</value>
+      <webElementGuid>1f999cde-a850-48e8-8fe3-2e67ba261dfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Type of visit</value>
+      <webElementGuid>c513a263-eeb7-495f-91af-d95a4654e9c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;active-visits&quot;)/thead[1]/tr[1]/th[@class=&quot;ui-state-default sorting_disabled&quot;]/div[@class=&quot;DataTables_sort_wrapper&quot;]</value>
+      <webElementGuid>501937d4-0c7d-49c7-8ae3-e4d5f587a07c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='active-visits']/thead/tr/th[5]/div</value>
+      <webElementGuid>9319847f-80f9-469a-809e-be26b793e232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Seen'])[1]/following::div[1]</value>
+      <webElementGuid>1f0c9fde-3445-4d7f-be72-774427eac0b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-In'])[1]/following::div[2]</value>
+      <webElementGuid>790b936f-1d6b-4152-a488-e887d688a6e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OpenMRS ID: 100JVK'])[1]/preceding::div[1]</value>
+      <webElementGuid>60b3e6fc-2a7a-4d58-b313-62dc140f6f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='irman ramadhan ZPNWq2sg'])[1]/preceding::div[1]</value>
+      <webElementGuid>8010fff8-59ba-46fc-b890-10e2c39c9406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Type of visit']/parent::*</value>
+      <webElementGuid>10e681de-697f-4f4b-8b61-b4ceb2e0fd37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[5]/div</value>
+      <webElementGuid>fa0cc14e-04cf-497e-a111-51e29304e20e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Type of visit' or . = 'Type of visit')]</value>
+      <webElementGuid>ac7af831-1974-4516-9c23-4abbed6333be</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

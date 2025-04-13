@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Who is the patient related to_icon-plus-s_997839</name>
+   <tag></tag>
+   <elementGuidId>daeecb1d-ba0b-4738-a782-a28526310d29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='relationship']/p[3]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-plus-sign.edit-action</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>feb43da8-d4b6-49d5-878a-91f27d870eea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-plus-sign edit-action</value>
+      <webElementGuid>e169c5f4-22f2-4616-9b80-246b29e24d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;relationship&quot;)/p[3]/a[1]/i[@class=&quot;icon-plus-sign edit-action&quot;]</value>
+      <webElementGuid>066e23a5-3764-4b1f-b8af-c3da0e043985</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='relationship']/p[3]/a/i</value>
+      <webElementGuid>85dd4afe-3148-43c4-9f4c-423357d92b79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]/a/i</value>
+      <webElementGuid>2572df9b-e454-4cc9-8553-b89e00e9793d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

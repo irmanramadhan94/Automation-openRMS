@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4.TS_Active_Visits,Chrome 135.0.7049.42,,,13-04-2025 16:28:39,13-04-2025 16:37:37,8m - 58.592s,FAILED
+,,,,,,,
+"Test Cases/4. Active Visits/1. Search Active Visits by Patient Id, Name, Last Seen",Chrome 135.0.7049.42,,,13-04-2025 16:32:16,13-04-2025 16:33:24,1m - 7.618s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:32:16,13-04-2025 16:32:47,30.895s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Active Visits""))",Chrome 135.0.7049.42,,,13-04-2025 16:32:47,13-04-2025 16:32:51,4.382s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_search""), ""irman ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:32:51,13-04-2025 16:32:52,0.560s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_irman ramadhan ZPNWq2sg""), ""irman ramadhan ZPNWq2sg"")",Chrome 135.0.7049.42,,,13-04-2025 16:32:52,13-04-2025 16:33:24,31.760s,FAILED
+,,,,,,,
+Test Cases/4. Active Visits/2. Admin dapat melihat Active Visits Pasien,Chrome 135.0.7049.42,,,13-04-2025 16:36:26,13-04-2025 16:37:37,1m - 11.792s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:36:26,13-04-2025 16:37:01,35.460s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Active Visits (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:37:01,13-04-2025 16:37:08,6.865s,PASSED
+"navigateToUrl(""https://o2.openmrs.org/openmrs/coreapps/activeVisits.page?app=coreapps.activeVisits"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:08,13-04-2025 16:37:09,1.419s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_search (1)""), ""irman ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:09,13-04-2025 16:37:10,0.980s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/a_irman ramadhan ZPNWq2sg (1)""))",Chrome 135.0.7049.42,,,13-04-2025 16:37:10,13-04-2025 16:37:25,14.323s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (1)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:25,13-04-2025 16:37:29,4.596s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (1)""), ""ramadhan"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:29,13-04-2025 16:37:29,0.272s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Given (1)""), ""Given"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:29,13-04-2025 16:37:30,0.285s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Middle (1)""), ""Middle"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:30,13-04-2025 16:37:30,0.286s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Family Name (1)""), ""Family Name"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:30,13-04-2025 16:37:30,0.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (1)""), ""Male "")",Chrome 135.0.7049.42,,,13-04-2025 16:37:30,13-04-2025 16:37:31,0.289s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (1)""), ""31 year(s) ( 04.Mar.1994)"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:31,13-04-2025 16:37:31,0.269s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/em_Patient ID (1)""), ""Patient ID"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:31,13-04-2025 16:37:31,0.258s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_100LDG (1)""), 10)",Chrome 135.0.7049.42,,,13-04-2025 16:37:31,13-04-2025 16:37:31,0.265s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_DIAGNOSES (1)""), ""DIAGNOSES"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:31,13-04-2025 16:37:32,0.272s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None in the last 730 days (1)""), ""None in the last 730 days"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:32,13-04-2025 16:37:32,0.272s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (1)""), ""LATEST OBSERVATIONS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:32,13-04-2025 16:37:32,0.258s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None in the last   30  days              _127cd3 (1)""), ""None in the last 30 days None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:32,13-04-2025 16:37:32,0.246s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_HEALTH TREND SUMMARY (1)""), ""HEALTH TREND SUMMARY"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:32,13-04-2025 16:37:33,0.248s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_WEIGHT GRAPH (1)""), ""WEIGHT GRAPH"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:33,13-04-2025 16:37:33,0.293s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/strong_Weight (kg) (1)""), ""Weight (kg)"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:33,13-04-2025 16:37:33,0.271s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/span_None in the last   365  days (1)""), ""None in the last 365 days"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:33,13-04-2025 16:37:34,0.272s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_VITALS (1)""), ""VITALS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:34,13-04-2025 16:37:34,0.270s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:34,13-04-2025 16:37:34,0.274s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_APPOINTMENTS (1)""), ""APPOINTMENTS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:34,13-04-2025 16:37:34,0.250s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_None_1 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:34,13-04-2025 16:37:35,0.254s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_RECENT VISITS (1)""), ""RECENT VISITS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:35,13-04-2025 16:37:35,0.235s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:35,13-04-2025 16:37:35,0.248s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_FAMILY (1)""), ""FAMILY"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:35,13-04-2025 16:37:35,0.242s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:35,13-04-2025 16:37:36,0.247s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_CONDITIONS (1)""), ""CONDITIONS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:36,13-04-2025 16:37:36,0.245s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1_2 (1)""), ""None"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:36,13-04-2025 16:37:36,0.243s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_ATTACHMENTS (1)""), ""ATTACHMENTS"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:36,13-04-2025 16:37:36,0.244s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/h3_ALLERGIES (1)""), ""ALLERGIES"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:36,13-04-2025 16:37:37,0.247s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Unknown (1)""), ""Unknown"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:37,13-04-2025 16:37:37,0.249s,PASSED
+"verifyElementText(findTestObject(""Page_ActiveVisits/CurrentVisitActions""), ""Current Visit Actions"")",Chrome 135.0.7049.42,,,13-04-2025 16:37:37,13-04-2025 16:37:37,0.549s,FAILED

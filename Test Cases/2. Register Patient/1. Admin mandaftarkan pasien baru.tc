@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Admin mandaftarkan pasien baru</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6118df2d-1581-410e-a320-589c0cb70174</testCaseGuid>
+</TestCaseEntity>

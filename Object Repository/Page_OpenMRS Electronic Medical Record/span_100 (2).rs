@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_100 (2)</name>
+   <tag></tag>
+   <elementGuidId>77ef5342-d313-4ad6-9192-963228c7dd3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-scope > span.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='obsTable']/tbody/tr/td[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#obsTable >> internal:text=&quot;100&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2fe65096-e506-4119-b8ba-618221274a30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>cellElem.className</value>
+      <webElementGuid>8885e4dc-2280-4f71-820e-b1edb7fe860c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>281b834c-4ae6-48ba-8f20-57d069e23036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>100</value>
+      <webElementGuid>f813f769-bd40-42bd-ac96-24d3cf4d6ef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;obsTable&quot;)/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>00c09c7e-0064-4761-bc32-1a1dc32cc4fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='obsTable']/tbody/tr/td[2]/span/span</value>
+      <webElementGuid>55f64766-b3b3-4f45-a209-c5442881643e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WT'])[1]/following::span[3]</value>
+      <webElementGuid>9618e502-2cee-4196-9fec-daffb3044e5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Temp (c)'])[1]/following::span[3]</value>
+      <webElementGuid>523ea111-6945-44bb-b9dc-70b2a9f856ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[2]/preceding::span[6]</value>
+      <webElementGuid>7c837c6a-60b4-4e52-bbd2-8751c61a5727</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span/span</value>
+      <webElementGuid>02aadb27-74e1-4ee1-80d2-9ec3709f18f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '100' or . = '100')]</value>
+      <webElementGuid>46c3e1d3-5e4c-4c57-955e-64ec82d85275</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

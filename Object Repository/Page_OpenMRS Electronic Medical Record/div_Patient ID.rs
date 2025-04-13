@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Patient ID</name>
+   <tag></tag>
+   <elementGuidId>0937ed27-39d2-403e-9cc2-275381938133</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.DataTables_sort_wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='active-visits']/thead/tr/th/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Patient ID&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e38d74a9-7cf8-48a2-aedc-8f4aef8de058</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>DataTables_sort_wrapper</value>
+      <webElementGuid>e3f3c062-3788-4bcc-b0f3-4f31287d3bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Patient ID</value>
+      <webElementGuid>2901bdfc-76ab-4f5f-974d-81354404c2f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;active-visits&quot;)/thead[1]/tr[1]/th[@class=&quot;ui-state-default sorting_disabled&quot;]/div[@class=&quot;DataTables_sort_wrapper&quot;]</value>
+      <webElementGuid>079fdf04-756b-48d1-a1e5-509308ec0bc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='active-visits']/thead/tr/th/div</value>
+      <webElementGuid>aa49b24a-3fce-4958-94f2-6e979edb830d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[1]</value>
+      <webElementGuid>7e6511a8-36ed-4859-9308-a000c3d91117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility Visit'])[1]/following::div[3]</value>
+      <webElementGuid>2b5ed75a-5e08-4eb5-a344-0508170f994c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::div[1]</value>
+      <webElementGuid>7da4e053-56ef-4efb-a1b7-14f2450cdc6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check-In'])[1]/preceding::div[2]</value>
+      <webElementGuid>30aaa7e9-6b0c-4742-8758-ff7e79dfa4e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Patient ID']/parent::*</value>
+      <webElementGuid>ec3c1c1d-a03c-4c93-ba7f-10cd58f57f22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th/div</value>
+      <webElementGuid>82c1b0ed-6bce-400e-99b1-4977630b1bfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Patient ID' or . = 'Patient ID')]</value>
+      <webElementGuid>86ba739a-1e94-45b6-9ed9-17a899eed988</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

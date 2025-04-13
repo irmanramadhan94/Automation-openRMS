@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Family Name (1)</name>
+   <tag></tag>
+   <elementGuidId>21fdced6-f0c1-4325-8e02-0178b29c31e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div[6]/div/div/div/h1/span[3]/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>64fe2b52-42f7-4547-8d9b-649775e3d5e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Family Name</value>
+      <webElementGuid>6866963b-d9b1-4539-b7b3-6ee1d555d0e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;patient-header row&quot;]/div[@class=&quot;demographics col-12 col-sm-7 col-md-8&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-12 col-sm-auto&quot;]/h1[@class=&quot;mt-0 mb-2 name&quot;]/span[@class=&quot;labeled&quot;]/em[1]</value>
+      <webElementGuid>0a561ae1-473c-4810-b807-ad011cfd6287</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div[6]/div/div/div/h1/span[3]/em</value>
+      <webElementGuid>491cbea5-6196-4db8-ab3e-43e73103c196</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rama'])[1]/following::em[1]</value>
+      <webElementGuid>b5945998-5e33-4e51-8029-e7069dc7778b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Middle'])[1]/following::em[1]</value>
+      <webElementGuid>7bfe3009-25da-40ce-bc15-a71f42e1fa62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::em[1]</value>
+      <webElementGuid>ab18e2a5-c597-4fed-8b2c-0819df0938da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Family Name']/parent::*</value>
+      <webElementGuid>f2e01a09-d66a-4da5-9963-5a779c0e5639</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/em</value>
+      <webElementGuid>069d6d71-2a8d-460d-aab1-dc0d203e622b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Family Name' or . = 'Family Name')]</value>
+      <webElementGuid>a43ffd3f-e4bf-447a-ac42-836de66dbe3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

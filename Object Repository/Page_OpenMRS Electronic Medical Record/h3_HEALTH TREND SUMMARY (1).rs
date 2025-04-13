@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_HEALTH TREND SUMMARY (1)</name>
+   <tag></tag>
+   <elementGuidId>af525f1f-aa42-4e34-8508-b422f0b68579</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#coreapps-fr4165 > div.info-header > h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='coreapps-fr4165']/div/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>81d45861-5f35-4798-b834-fb05dae90901</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HEALTH TREND SUMMARY</value>
+      <webElementGuid>13d27437-5f1d-45eb-8e18-1130d1e0216e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-fr4165&quot;)/div[@class=&quot;info-header&quot;]/h3[1]</value>
+      <webElementGuid>4e34a5c1-9fad-4bd9-8233-42562183979c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='coreapps-fr4165']/div/h3</value>
+      <webElementGuid>a1410b27-6408-4aae-af3a-cf9d8ff9cb89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::h3[1]</value>
+      <webElementGuid>e32baeb2-a1d1-412e-8692-52c371988d6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[2]/preceding::h3[1]</value>
+      <webElementGuid>39eb15e8-1847-4eac-b828-19c6ea6c3f50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='HEALTH TREND SUMMARY']/parent::*</value>
+      <webElementGuid>f1f152ee-f863-4396-b7a3-9b01ad94ed75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[3]/div/h3</value>
+      <webElementGuid>b1dc3ffa-ceb3-4108-a07d-6f08b1ed8330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'HEALTH TREND SUMMARY' or . = 'HEALTH TREND SUMMARY')]</value>
+      <webElementGuid>0347e9ca-78f0-4ce5-ac98-be6a4c22f7b4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

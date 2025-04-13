@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="6.TS_Delete_Patient" time="86.62" tests="1" failures="0" errors="0">
+   <testsuite name="6.TS_Delete_Patient" tests="1" failures="0" errors="0" time="86.62" skipped="0" timestamp="13-04-2025T16:42:32" hostname="acer - 20.20.2.217" id="Test Suites/6.TS_Delete_Patient">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\6.TS_Delete_Patient\\20250413_161719"/>
+         <property name="logFiles" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\6.TS_Delete_Patient\\20250413_161719\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="acer - 20.20.2.217"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.42"/>
+         <property name="hostAddress" value="20.20.2.217"/>
+         <property name="sessionId" value="f4e7ed6d1f4c8240e6027ab3f69ffddd"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/3. Find Patient Record/5. Delete Pasien" time="86.45" classname="Test Cases/3. Find Patient Record/5. Delete Pasien" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:42:32 - [TEST_CASE][PASSED] - Test Cases/3. Find Patient Record/5. Delete Pasien: Test Cases/3. Find Patient Record/5. Delete Pasien
+
+13-04-2025T16:42:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:42:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:42:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:42:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:42:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:42:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:42:34 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:42:34 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:42:59 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:43:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:43:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:43:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:43:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:43:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Find Patient Record (4)")): Object: 'Object Repository/Page_Home/a_Find Patient Record (4)' is clicked on
+
+13-04-2025T16:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Find Patient Record (4)' is clicked on
+
+13-04-2025T16:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (3)"), "irman"): Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (3)'
+
+13-04-2025T16:43:07 - [MESSAGE][PASSED] - Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (3)'
+
+13-04-2025T16:43:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-04-2025T16:43:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-04-2025T16:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan 1dXe85JL")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan 1dXe85JL' is clicked on
+
+13-04-2025T16:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan 1dXe85JL' is clicked on
+
+13-04-2025T16:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (2)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (2)' is clicked on
+
+13-04-2025T16:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (2)' is clicked on
+
+13-04-2025T16:43:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Reason_delete-reason"), "automation test"): Text 'automation test' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Reason_delete-reason'
+
+13-04-2025T16:43:57 - [MESSAGE][PASSED] - Text 'automation test' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Reason_delete-reason'
+
+13-04-2025T16:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (2)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (2)' is clicked on
+
+13-04-2025T16:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (2)' is clicked on
+
+13-04-2025T16:43:57 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_Patient has been deleted successfully")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Patient has been deleted successfully' is right clicked on
+
+13-04-2025T16:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Patient has been deleted successfully' is right clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-04-2025T16:42:32 - [TEST_SUITE][PASSED] - 6.TS_Delete_Patient: Test Cases/3. Find Patient Record/5. Delete Pasien]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

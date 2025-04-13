@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OpenMRS Electronic Medical Record/a_irman ramadhan ZPNWq2sg",
+      "brokenLocator": "//tr[@id\u003d\u0027visit-2419\u0027]/td[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Type of visit\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OpenMRS Electronic Medical Record/a_irman ramadhan ZPNWq2sg_neighbor.png"
+    }
+  ]
+}

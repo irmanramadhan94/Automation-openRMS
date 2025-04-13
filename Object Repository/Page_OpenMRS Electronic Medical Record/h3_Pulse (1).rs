@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Pulse (1)</name>
+   <tag></tag>
+   <elementGuidId>6117a9d8-d1b1-4aa9-8ec2-a74017f32be7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>fieldset:nth-of-type(5) > h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='vitals']/fieldset[5]/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Pulse&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>def2cdb0-3b56-4945-9c2e-724ed8bc1ae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pulse</value>
+      <webElementGuid>6c29e908-b31c-4308-a263-9349721f1142</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vitals&quot;)/fieldset[5]/h3[1]</value>
+      <webElementGuid>def74a89-12df-4d25-b968-f90c058f0e9b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='vitals']/fieldset[5]/h3</value>
+      <webElementGuid>bf6dd2b9-8bc2-4895-a828-c33ee9b4ba94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pulse'])[1]/following::h3[1]</value>
+      <webElementGuid>587faf02-798e-4ba0-8d0b-6db2ef5bcd92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='°C'])[1]/following::h3[1]</value>
+      <webElementGuid>0db4fae5-25ff-4f5b-a14a-290e3057cf2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/min'])[1]/preceding::h3[1]</value>
+      <webElementGuid>6ea8fd68-59a3-4cae-8669-c659855be784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Respiratory rate'])[1]/preceding::h3[1]</value>
+      <webElementGuid>163e8086-2181-4860-b92e-76d44a580896</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[5]/h3</value>
+      <webElementGuid>814c2cd2-c918-4e11-a957-9d2e7a137835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Pulse' or . = 'Pulse')]</value>
+      <webElementGuid>bd8c5ad7-8d90-46f3-8932-68634234f72e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

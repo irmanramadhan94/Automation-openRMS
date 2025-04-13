@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "AA18C7481A4CC4382EB5A15E1C260CD8",
+  "keywordClasses": [
+    {
+      "name": "randomString",
+      "keywordMethods": [
+        {
+          "name": "generateAlphanumeric",
+          "parameters": [
+            {
+              "name": "length",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

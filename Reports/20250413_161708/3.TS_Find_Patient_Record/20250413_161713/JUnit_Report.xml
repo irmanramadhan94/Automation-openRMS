@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3.TS_Find_Patient_Record" time="347.676" tests="4" failures="0" errors="0">
+   <testsuite name="3.TS_Find_Patient_Record" tests="4" failures="0" errors="0" time="347.676" skipped="0" timestamp="13-04-2025T16:22:47" hostname="acer - 20.20.2.217" id="Test Suites/3.TS_Find_Patient_Record">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\3.TS_Find_Patient_Record\\20250413_161713"/>
+         <property name="logFiles" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\3.TS_Find_Patient_Record\\20250413_161713\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\3.TS_Find_Patient_Record\\20250413_161713\\1744536318222.png, C:\\Users\\acer\\OneDrive\\Documents\\Automation-openRMS\\Reports\\20250413_161708\\3.TS_Find_Patient_Record\\20250413_161713\\1744536359376.png"/>
+         <property name="hostName" value="acer - 20.20.2.217"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.42"/>
+         <property name="hostAddress" value="20.20.2.217"/>
+         <property name="sessionId" value="a4a0568c7c969995f2b08328077575e9"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/3. Find Patient Record/1. Search Patient by Name" time="43.69" classname="Test Cases/3. Find Patient Record/1. Search Patient by Name" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:22:47 - [TEST_CASE][PASSED] - Test Cases/3. Find Patient Record/1. Search Patient by Name: Test Cases/3. Find Patient Record/1. Search Patient by Name
+
+13-04-2025T16:22:47 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:22:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:22:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:22:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:22:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:22:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:22:50 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:22:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:23:16 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:23:16 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:23:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:23:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:23:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:23:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Find Patient Record (1)")): Object: 'Object Repository/Page_Home/a_Find Patient Record (1)' is clicked on
+
+13-04-2025T16:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Find Patient Record (1)' is clicked on
+
+13-04-2025T16:23:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (1)"), "Nindy Silvi Kusumaningrum"): Text 'Nindy Silvi Kusumaningrum' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (1)'
+
+13-04-2025T16:23:27 - [MESSAGE][PASSED] - Text 'Nindy Silvi Kusumaningrum' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (1)'
+
+13-04-2025T16:23:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_100J27Recent"), 5): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_100J27Recent' is present
+
+13-04-2025T16:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_100J27Recent' is present
+
+13-04-2025T16:23:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama"), "Nindy Silvi Kusumaningrum"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama' are matched.
+
+13-04-2025T16:23:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama' are matched.
+
+13-04-2025T16:23:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_M"), "F"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_M' are matched.
+
+13-04-2025T16:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_M' are matched.
+
+13-04-2025T16:23:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_31"), "22"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_31' are matched.
+
+13-04-2025T16:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_31' are matched.
+
+13-04-2025T16:23:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/birthDate"), "   13 Sep 2002"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/birthDate' are matched.
+
+13-04-2025T16:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/birthDate' are matched.
+
+13-04-2025T16:23:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Identifier"), "Identifier"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Identifier' are matched.
+
+13-04-2025T16:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Identifier' are matched.
+
+13-04-2025T16:23:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Name"), "Name"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Name' are matched.
+
+13-04-2025T16:23:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Name' are matched.
+
+13-04-2025T16:23:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Gender"), "Gender"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Gender' are matched.
+
+13-04-2025T16:23:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Gender' are matched.
+
+13-04-2025T16:23:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Age"), "Age"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Age' are matched.
+
+13-04-2025T16:23:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Age' are matched.
+
+13-04-2025T16:23:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Birthdate"), "Birthdate"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Birthdate' are matched.
+
+13-04-2025T16:23:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Birthdate' are matched.
+
+13-04-2025T16:23:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h2_Find Patient Record"), "Find Patient Record"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h2_Find Patient Record' are matched.
+
+13-04-2025T16:23:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h2_Find Patient Record' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Find Patient Record/2. Patient Information" time="66.117" classname="Test Cases/3. Find Patient Record/2. Patient Information" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:23:31 - [TEST_CASE][PASSED] - Test Cases/3. Find Patient Record/2. Patient Information: Test Cases/3. Find Patient Record/2. Patient Information
+
+13-04-2025T16:23:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:23:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:23:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:23:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:23:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:23:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:23:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:23:32 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:23:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:23:58 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:23:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:23:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:23:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:23:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:24:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Find Patient Record (2)")): Object: 'Object Repository/Page_Home/a_Find Patient Record (2)' is clicked on
+
+13-04-2025T16:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Find Patient Record (2)' is clicked on
+
+13-04-2025T16:24:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (2)"), "irman"): Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (2)'
+
+13-04-2025T16:24:06 - [MESSAGE][PASSED] - Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (2)'
+
+13-04-2025T16:24:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)"), 10): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)' is visible
+
+13-04-2025T16:24:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)' is visible
+
+13-04-2025T16:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)' is clicked on
+
+13-04-2025T16:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan rama (1)' is clicked on
+
+13-04-2025T16:24:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (1)"), "irman"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (1)' are matched.
+
+13-04-2025T16:24:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (1)' are matched.
+
+13-04-2025T16:24:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (1)"), "ramadhan"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (1)' are matched.
+
+13-04-2025T16:24:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (1)' are matched.
+
+13-04-2025T16:24:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/em_Given (1)"), "Given"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Given (1)' are matched.
+
+13-04-2025T16:24:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Given (1)' are matched.
+
+13-04-2025T16:24:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/em_Middle (1)"), "Middle"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Middle (1)' are matched.
+
+13-04-2025T16:24:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Middle (1)' are matched.
+
+13-04-2025T16:24:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/em_Family Name (1)"), "Family Name"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Family Name (1)' are matched.
+
+13-04-2025T16:24:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Family Name (1)' are matched.
+
+13-04-2025T16:24:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (1)"), "Male "): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (1)' are matched.
+
+13-04-2025T16:24:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (1)' are matched.
+
+13-04-2025T16:24:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (1)"), "31 year(s) ( 04.Mar.1994)"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (1)' are matched.
+
+13-04-2025T16:24:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (1)' are matched.
+
+13-04-2025T16:24:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/em_Patient ID (1)"), "Patient ID"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Patient ID (1)' are matched.
+
+13-04-2025T16:24:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/em_Patient ID (1)' are matched.
+
+13-04-2025T16:24:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_100LDG (1)"), 10): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_100LDG (1)' is present
+
+13-04-2025T16:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_100LDG (1)' is present
+
+13-04-2025T16:24:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_DIAGNOSES (1)"), "DIAGNOSES"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_DIAGNOSES (1)' are matched.
+
+13-04-2025T16:24:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_DIAGNOSES (1)' are matched.
+
+13-04-2025T16:24:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_None in the last 730 days (1)"), "None in the last 730 days"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None in the last 730 days (1)' are matched.
+
+13-04-2025T16:24:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None in the last 730 days (1)' are matched.
+
+13-04-2025T16:24:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (1)"), "LATEST OBSERVATIONS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (1)' are matched.
+
+13-04-2025T16:24:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_LATEST OBSERVATIONS (1)' are matched.
+
+13-04-2025T16:24:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_None in the last   30  days              _127cd3 (1)"), "None in the last 30 days None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None in the last   30  days              _127cd3 (1)' are matched.
+
+13-04-2025T16:24:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None in the last   30  days              _127cd3 (1)' are matched.
+
+13-04-2025T16:24:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_HEALTH TREND SUMMARY (1)"), "HEALTH TREND SUMMARY"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_HEALTH TREND SUMMARY (1)' are matched.
+
+13-04-2025T16:24:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_HEALTH TREND SUMMARY (1)' are matched.
+
+13-04-2025T16:24:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_WEIGHT GRAPH (1)"), "WEIGHT GRAPH"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_WEIGHT GRAPH (1)' are matched.
+
+13-04-2025T16:24:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_WEIGHT GRAPH (1)' are matched.
+
+13-04-2025T16:24:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/strong_Weight (kg) (1)"), "Weight (kg)"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/strong_Weight (kg) (1)' are matched.
+
+13-04-2025T16:24:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/strong_Weight (kg) (1)' are matched.
+
+13-04-2025T16:24:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_None in the last   365  days (1)"), "None in the last 365 days"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_None in the last   365  days (1)' are matched.
+
+13-04-2025T16:24:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_None in the last   365  days (1)' are matched.
+
+13-04-2025T16:24:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_VITALS (1)"), "VITALS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_VITALS (1)' are matched.
+
+13-04-2025T16:24:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_VITALS (1)' are matched.
+
+13-04-2025T16:24:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_None (1)"), "None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None (1)' are matched.
+
+13-04-2025T16:24:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None (1)' are matched.
+
+13-04-2025T16:24:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_APPOINTMENTS (1)"), "APPOINTMENTS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_APPOINTMENTS (1)' are matched.
+
+13-04-2025T16:24:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_APPOINTMENTS (1)' are matched.
+
+13-04-2025T16:24:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_None_1 (1)"), "None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None_1 (1)' are matched.
+
+13-04-2025T16:24:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_None_1 (1)' are matched.
+
+13-04-2025T16:24:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_RECENT VISITS (1)"), "RECENT VISITS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_RECENT VISITS (1)' are matched.
+
+13-04-2025T16:24:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_RECENT VISITS (1)' are matched.
+
+13-04-2025T16:24:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_None (1)"), "None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None (1)' are matched.
+
+13-04-2025T16:24:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None (1)' are matched.
+
+13-04-2025T16:24:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_FAMILY (1)"), "FAMILY"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_FAMILY (1)' are matched.
+
+13-04-2025T16:24:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_FAMILY (1)' are matched.
+
+13-04-2025T16:24:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1 (1)"), "None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1 (1)' are matched.
+
+13-04-2025T16:24:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1 (1)' are matched.
+
+13-04-2025T16:24:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_CONDITIONS (1)"), "CONDITIONS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_CONDITIONS (1)' are matched.
+
+13-04-2025T16:24:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_CONDITIONS (1)' are matched.
+
+13-04-2025T16:24:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1_2 (1)"), "None"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1_2 (1)' are matched.
+
+13-04-2025T16:24:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_None_1_2 (1)' are matched.
+
+13-04-2025T16:24:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_ATTACHMENTS (1)"), "ATTACHMENTS"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_ATTACHMENTS (1)' are matched.
+
+13-04-2025T16:24:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_ATTACHMENTS (1)' are matched.
+
+13-04-2025T16:24:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_ALLERGIES (1)"), "ALLERGIES"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_ALLERGIES (1)' are matched.
+
+13-04-2025T16:24:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_ALLERGIES (1)' are matched.
+
+13-04-2025T16:24:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Unknown (1)"), "Unknown"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Unknown (1)' are matched.
+
+13-04-2025T16:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Unknown (1)' are matched.
+
+13-04-2025T16:24:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h3_General Actions (1)"), "General Actions"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_General Actions (1)' are matched.
+
+13-04-2025T16:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h3_General Actions (1)' are matched.
+
+13-04-2025T16:24:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (2)"), "Start Visit"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (2)' are matched.
+
+13-04-2025T16:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (2)' are matched.
+
+13-04-2025T16:24:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Add Past Visit (1)"), "Add Past Visit"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Add Past Visit (1)' are matched.
+
+13-04-2025T16:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Add Past Visit (1)' are matched.
+
+13-04-2025T16:24:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Schedule Appointment (1)"), "Schedule Appointment"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Schedule Appointment (1)' are matched.
+
+13-04-2025T16:24:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Schedule Appointment (1)' are matched.
+
+13-04-2025T16:24:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Request Appointment (1)"), "Request Appointment"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Request Appointment (1)' are matched.
+
+13-04-2025T16:24:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Request Appointment (1)' are matched.
+
+13-04-2025T16:24:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Mark Patient Deceased (1)"), "Mark Patient Deceased"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Mark Patient Deceased (1)' are matched.
+
+13-04-2025T16:24:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Mark Patient Deceased (1)' are matched.
+
+13-04-2025T16:24:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Edit Registration Information (1)"), "Edit Registration Information"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Edit Registration Information (1)' are matched.
+
+13-04-2025T16:24:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Edit Registration Information (1)' are matched.
+
+13-04-2025T16:24:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (1)"), "Delete Patient"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (1)' are matched.
+
+13-04-2025T16:24:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (1)' are matched.
+
+13-04-2025T16:24:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Attachments (1)"), "Attachments"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Attachments (1)' are matched.
+
+13-04-2025T16:24:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Attachments (1)' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien" time="62.161" classname="Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:25:59 - [TEST_CASE][PASSED] - Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien: Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien
+
+13-04-2025T16:25:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:25:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:25:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:25:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:25:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:26:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:26:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:26:00 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:26:00 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:26:33 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:26:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:26:34 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:26:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:26:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:26:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:26:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:26:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Find Patient Record")): Object: 'Object Repository/Page_Home/a_Find Patient Record' is clicked on
+
+13-04-2025T16:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Find Patient Record' is clicked on
+
+13-04-2025T16:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search"), "irman"): Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search'
+
+13-04-2025T16:26:40 - [MESSAGE][PASSED] - Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search'
+
+13-04-2025T16:26:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U"), 0): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is visible
+
+13-04-2025T16:26:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-04-2025T16:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is visible
+
+13-04-2025T16:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is clicked on
+
+13-04-2025T16:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is clicked on
+
+13-04-2025T16:26:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (1)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (1)' is clicked on
+
+13-04-2025T16:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Start Visit (1)' is clicked on
+
+13-04-2025T16:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm' is clicked on
+
+13-04-2025T16:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm' is clicked on
+
+13-04-2025T16:26:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Outpatient"), "Outpatient"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Outpatient' are matched.
+
+13-04-2025T16:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Outpatient' are matched.
+
+13-04-2025T16:27:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/li_Visits"), "Visits"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/li_Visits' are matched.
+
+13-04-2025T16:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/li_Visits' are matched.
+
+13-04-2025T16:27:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_End Visit"), "End Visit"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_End Visit' are matched.
+
+13-04-2025T16:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_End Visit' are matched.
+
+13-04-2025T16:27:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Visit Note"), "Visit Note"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Visit Note' are matched.
+
+13-04-2025T16:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Visit Note' are matched.
+
+13-04-2025T16:27:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Admit to Inpatient"), "Admit to Inpatient"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Admit to Inpatient' are matched.
+
+13-04-2025T16:27:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Admit to Inpatient' are matched.
+
+13-04-2025T16:27:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Capture Vitals"), "Capture Vitals"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Capture Vitals' are matched.
+
+13-04-2025T16:27:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Capture Vitals' are matched.
+
+13-04-2025T16:27:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Attachments"), "Attachments"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Attachments' are matched.
+
+13-04-2025T16:27:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Attachments' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Find Patient Record/4. User dapat edit demographics pasien" time="93.433" classname="Test Cases/3. Find Patient Record/4. User dapat edit demographics pasien" status="PASSED">
+         <system-out><![CDATA[13-04-2025T16:27:01 - [TEST_CASE][PASSED] - Test Cases/3. Find Patient Record/4. User dapat edit demographics pasien: Test Cases/3. Find Patient Record/4. User dapat edit demographics pasien
+
+13-04-2025T16:27:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:27:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-04-2025T16:27:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-04-2025T16:27:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-04-2025T16:27:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-04-2025T16:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-04-2025T16:27:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-04-2025T16:27:03 - [MESSAGE][PASSED] - Current window maximized
+
+13-04-2025T16:27:03 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:27:37 - [MESSAGE][PASSED] - Navigate to 'https://o2.openmrs.org/openmrs/login.htm' successfully
+
+13-04-2025T16:27:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:27:38 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_Username_username'
+
+13-04-2025T16:27:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login/input_Password_password"), "/5S6MFFLcE4mlsixtc6/Tg=="): Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:27:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login/input_Password_password'
+
+13-04-2025T16:27:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/li_Pharmacy")): Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/li_Pharmacy' is clicked on
+
+13-04-2025T16:27:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Registration Desk_loginButton")): Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Registration Desk_loginButton' is clicked on
+
+13-04-2025T16:27:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Dashboard/login_as"), "Logged in as Super User (admin) at Pharmacy."): Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:27:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard/login_as' are matched.
+
+13-04-2025T16:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Find Patient Record")): Object: 'Object Repository/Page_Home/a_Find Patient Record' is clicked on
+
+13-04-2025T16:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Find Patient Record' is clicked on
+
+13-04-2025T16:27:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search"), "irman"): Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search'
+
+13-04-2025T16:27:44 - [MESSAGE][PASSED] - Text 'irman' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search'
+
+13-04-2025T16:27:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+13-04-2025T16:27:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-04-2025T16:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is clicked on
+
+13-04-2025T16:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' is clicked on
+
+13-04-2025T16:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)"), 10): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)' is visible
+
+13-04-2025T16:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)' is visible
+
+13-04-2025T16:28:02 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)")): Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)' is cleared
+
+13-04-2025T16:28:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)' is cleared
+
+13-04-2025T16:28:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)"), "edited"): Text 'edited' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)'
+
+13-04-2025T16:28:03 - [MESSAGE][PASSED] - Text 'edited' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName (1)'
+
+13-04-2025T16:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female (1)"), "F", true): All options with value 'F' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female (1)'  using regular expression
+
+13-04-2025T16:28:04 - [MESSAGE][PASSED] - All options with value 'F' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female (1)'  using regular expression
+
+13-04-2025T16:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:05 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is double clicked on
+
+13-04-2025T16:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is double clicked on
+
+13-04-2025T16:28:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay"), "5"): Text '5' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:06 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_Gender Female"), "Gender: Female"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Gender Female' are matched.
+
+13-04-2025T16:28:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Gender Female' are matched.
+
+13-04-2025T16:28:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/p_Birthdate 5, March, 1994"), "Birthdate: 5, March, 1994"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Birthdate 5, March, 1994' are matched.
+
+13-04-2025T16:28:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/p_Birthdate 5, March, 1994' are matched.
+
+13-04-2025T16:28:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/h2_Demographics"), "Demographics"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h2_Demographics' are matched.
+
+13-04-2025T16:28:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/h2_Demographics' are matched.
+
+13-04-2025T16:28:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel' is clicked on
+
+13-04-2025T16:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel' is clicked on
+
+13-04-2025T16:28:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)"), "irman"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)"), "ramadhan"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)' are matched.
+
+13-04-2025T16:28:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)' are matched.
+
+13-04-2025T16:28:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/div_Male                                   _7b49c2"), "Male  31 year(s) ( 04.Mar.1994) Edit"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Male                                   _7b49c2' are matched.
+
+13-04-2025T16:28:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/div_Male                                   _7b49c2' are matched.
+
+13-04-2025T16:28:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1"), 10): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1' is visible
+
+13-04-2025T16:28:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1' is visible
+
+13-04-2025T16:28:15 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1")): Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1' is cleared
+
+13-04-2025T16:28:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1' is cleared
+
+13-04-2025T16:28:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1"), "edited"): Text 'edited' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1'
+
+13-04-2025T16:28:15 - [MESSAGE][PASSED] - Text 'edited' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1'
+
+13-04-2025T16:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1"), 10, STOP_ON_FAILURE): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1' is visible
+
+13-04-2025T16:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1' is visible
+
+13-04-2025T16:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1' is clicked on
+
+13-04-2025T16:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1' is clicked on
+
+13-04-2025T16:28:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1"), "F", true): All options with value 'F' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1'  using regular expression
+
+13-04-2025T16:28:17 - [MESSAGE][PASSED] - All options with value 'F' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1'  using regular expression
+
+13-04-2025T16:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay"), "5"): Text '5' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:18 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)' is clicked on
+
+13-04-2025T16:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)' is clicked on
+
+13-04-2025T16:28:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)"), "irman"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_edited"), "edited"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_edited' are matched.
+
+13-04-2025T16:28:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_edited' are matched.
+
+13-04-2025T16:28:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_Female"), "Female "): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Female' are matched.
+
+13-04-2025T16:28:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Female' are matched.
+
+13-04-2025T16:28:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _27b454"), "31 year(s) ( 05.Mar.1994)"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _27b454' are matched.
+
+13-04-2025T16:28:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _27b454' are matched.
+
+13-04-2025T16:28:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/a_Edit' is clicked on
+
+13-04-2025T16:28:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2"), 10): Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2' is visible
+
+13-04-2025T16:28:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2' is visible
+
+13-04-2025T16:28:25 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2")): Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2' is cleared
+
+13-04-2025T16:28:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2' is cleared
+
+13-04-2025T16:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_(required)_givenName (1)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_(required)_givenName (1)' is clicked on
+
+13-04-2025T16:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_(required)_givenName (1)' is clicked on
+
+13-04-2025T16:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2"), "ramadhan"): Text 'ramadhan' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2'
+
+13-04-2025T16:28:26 - [MESSAGE][PASSED] - Text 'ramadhan' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Middle_middleName_1_2'
+
+13-04-2025T16:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1_2"), "M", true): All options with value 'M' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1_2'  using regular expression
+
+13-04-2025T16:28:28 - [MESSAGE][PASSED] - All options with value 'M' are selected in object 'Object Repository/Page_OpenMRS Electronic Medical Record/select_Male                    Female_1_2'  using regular expression
+
+13-04-2025T16:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay' is clicked on
+
+13-04-2025T16:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay"), "4"): Text '4' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:29 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_OpenMRS Electronic Medical Record/input_Day_birthdateDay'
+
+13-04-2025T16:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Cancel_next-button' is clicked on
+
+13-04-2025T16:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)")): Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)' is clicked on
+
+13-04-2025T16:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (1)' is clicked on
+
+13-04-2025T16:28:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)"), "irman"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_irman (2)' are matched.
+
+13-04-2025T16:28:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)"), "ramadhan"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)' are matched.
+
+13-04-2025T16:28:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_ramadhan (2)' are matched.
+
+13-04-2025T16:28:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (2)"), "Male "): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (2)' are matched.
+
+13-04-2025T16:28:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_Male (2)' are matched.
+
+13-04-2025T16:28:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (2)"), "31 year(s) ( 04.Mar.1994)"): Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (2)' are matched.
+
+13-04-2025T16:28:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OpenMRS Electronic Medical Record/span_31 year(s)                            _1191ad (2)' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-04-2025T16:22:47 - [TEST_SUITE][FAILED] - 3.TS_Find_Patient_Record: Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' to be visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:514)
+	at 3. Admin melakukan Start Visit Pasien.run(3. Admin melakukan Start Visit Pasien:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744535833129.run(TempTestSuite1744535833129.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3acb0188b3aa827ab2bcd2f651d01f50, isElementDisplayed {id=f.D98F3E8D79829D8AB3992A9F7388D5CF.d.671BDC7E4B861EA6B531E9F6D01B1ABE.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64299/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:11923/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (3acb0188b3aa827ab2bcd2f651d01f50)] -> xpath: //table[@id='patient-search-results-table']/tbody/tr/td[2]]
+Session ID: 3acb0188b3aa827ab2bcd2f651d01f50
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$TZS9CBcz.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at org.openqa.selenium.support.ui.Wait$until.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[13-04-2025T16:22:47 - [TEST_SUITE][FAILED] - 3.TS_Find_Patient_Record: Test Cases/3. Find Patient Record/3. Admin melakukan Start Visit Pasien FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan QVIqva4U' to be visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:514)
+	at 3. Admin melakukan Start Visit Pasien.run(3. Admin melakukan Start Visit Pasien:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744535833129.run(TempTestSuite1744535833129.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3acb0188b3aa827ab2bcd2f651d01f50, isElementDisplayed {id=f.D98F3E8D79829D8AB3992A9F7388D5CF.d.671BDC7E4B861EA6B531E9F6D01B1ABE.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64299/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:11923/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (3acb0188b3aa827ab2bcd2f651d01f50)] -> xpath: //table[@id='patient-search-results-table']/tbody/tr/td[2]]
+Session ID: 3acb0188b3aa827ab2bcd2f651d01f50
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$TZS9CBcz.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at org.openqa.selenium.support.ui.Wait$until.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

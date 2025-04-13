@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Search Active Visits by Patient Id, Name, Last Seen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>997de203-6910-41b4-99c9-36d936af122a</testCaseGuid>
+</TestCaseEntity>

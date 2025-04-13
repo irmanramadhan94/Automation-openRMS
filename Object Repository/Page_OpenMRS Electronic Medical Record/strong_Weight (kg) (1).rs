@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Weight (kg) (1)</name>
+   <tag></tag>
+   <elementGuidId>b706853b-c16f-4c33-89c7-1b2678cad613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong.ng-binding</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='coreapps-fr5253']/div[2]/obsgraph/div/div/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>b114ad3b-2894-42d8-838c-5d76fcf4d34a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>6d643559-625d-4283-9989-ddaa154bfac6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            Weight (kg)
+        </value>
+      <webElementGuid>9f5eb34e-8ae9-4ee6-9045-cf000e6a4c43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;coreapps-fr5253&quot;)/div[@class=&quot;info-body&quot;]/obsgraph[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[1]/strong[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>dc4dc20c-4250-4c08-8bad-e4e88732d8f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='coreapps-fr5253']/div[2]/obsgraph/div/div/strong</value>
+      <webElementGuid>bb2b1dd8-b8f0-4e40-a301-ab61ff4355c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEIGHT GRAPH'])[1]/following::strong[1]</value>
+      <webElementGuid>eaf5a5ef-8fa2-420e-a08f-09965832c017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[2]/following::strong[1]</value>
+      <webElementGuid>213f79c0-7920-43be-9730-4a9b8c0c7791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VITALS'])[1]/preceding::strong[1]</value>
+      <webElementGuid>b960cfd4-90e4-4305-b87c-d27772ca9385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Weight (kg)']/parent::*</value>
+      <webElementGuid>66f574c4-31b1-423b-a8e1-bc60a9f3d3ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//strong</value>
+      <webElementGuid>d42ce01a-c9f3-40a1-ac4a-42afd0372781</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = '
+            Weight (kg)
+        ' or . = '
+            Weight (kg)
+        ')]</value>
+      <webElementGuid>499e6128-9a50-4830-b5b2-142ec557031d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

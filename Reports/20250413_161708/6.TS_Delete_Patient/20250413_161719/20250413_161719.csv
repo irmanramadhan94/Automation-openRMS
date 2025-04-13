@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+6.TS_Delete_Patient,Chrome 135.0.7049.42,,,13-04-2025 16:42:32,13-04-2025 16:43:58,1m - 26.620s,PASSED
+,,,,,,,
+Test Cases/3. Find Patient Record/5. Delete Pasien,Chrome 135.0.7049.42,,,13-04-2025 16:42:32,13-04-2025 16:43:58,1m - 26.450s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:42:32,13-04-2025 16:43:03,31.556s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Find Patient Record (4)""))",Chrome 135.0.7049.42,,,13-04-2025 16:43:03,13-04-2025 16:43:07,3.269s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Find Patient Record_patient-search (3)""), ""irman"")",Chrome 135.0.7049.42,,,13-04-2025 16:43:07,13-04-2025 16:43:07,0.582s,PASSED
+delay(5),Chrome 135.0.7049.42,,,13-04-2025 16:43:07,13-04-2025 16:43:12,5.030s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/td_irman ramadhan 1dXe85JL""))",Chrome 135.0.7049.42,,,13-04-2025 16:43:12,13-04-2025 16:43:53,40.735s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/div_Delete Patient (2)""))",Chrome 135.0.7049.42,,,13-04-2025 16:43:53,13-04-2025 16:43:56,2.962s,PASSED
+"setText(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/input_Reason_delete-reason""), ""automation test"")",Chrome 135.0.7049.42,,,13-04-2025 16:43:56,13-04-2025 16:43:57,0.759s,PASSED
+"click(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/button_Confirm (2)""))",Chrome 135.0.7049.42,,,13-04-2025 16:43:57,13-04-2025 16:43:57,0.321s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OpenMRS Electronic Medical Record/p_Patient has been deleted successfully""))",Chrome 135.0.7049.42,,,13-04-2025 16:43:57,13-04-2025 16:43:58,1.157s,PASSED

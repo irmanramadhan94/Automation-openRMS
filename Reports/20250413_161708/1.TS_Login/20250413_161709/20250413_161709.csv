@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1.TS_Login,Chrome 135.0.7049.42,,,13-04-2025 16:17:24,13-04-2025 16:19:52,2m - 28.638s,PASSED
+,,,,,,,
+Test Cases/1. Login/1. Login menggunakan invalid credential,Chrome 135.0.7049.42,,,13-04-2025 16:17:24,13-04-2025 16:17:50,26.047s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:17:24,13-04-2025 16:17:38,14.121s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.42,,,13-04-2025 16:17:38,13-04-2025 16:17:40,1.421s,PASSED
+maximizeWindow(),Chrome 135.0.7049.42,,,13-04-2025 16:17:40,13-04-2025 16:17:40,0.049s,PASSED
+navigateToUrl(url),Chrome 135.0.7049.42,,,13-04-2025 16:17:40,13-04-2025 16:17:47,7.598s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username_username""), ""lorem"")",Chrome 135.0.7049.42,,,13-04-2025 16:17:47,13-04-2025 16:17:48,0.576s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""3jc02kEOUvU="")",Chrome 135.0.7049.42,,,13-04-2025 16:17:48,13-04-2025 16:17:48,0.308s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/li_Pharmacy""))",Chrome 135.0.7049.42,,,13-04-2025 16:17:48,13-04-2025 16:17:48,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Registration Desk_loginButton""))",Chrome 135.0.7049.42,,,13-04-2025 16:17:48,13-04-2025 16:17:49,1.074s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login/div_Invalid usernamepassword. Please try again""), ""Invalid username/password. Please try again."")",Chrome 135.0.7049.42,,,13-04-2025 16:17:49,13-04-2025 16:17:50,0.477s,PASSED
+,,,,,,,
+Test Cases/1. Login/2. Login tanpa memilih lokasi,Chrome 135.0.7049.42,,,13-04-2025 16:17:50,13-04-2025 16:18:31,41.120s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:17:50,13-04-2025 16:18:00,10.352s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.42,,,13-04-2025 16:18:00,13-04-2025 16:18:02,1.651s,PASSED
+maximizeWindow(),Chrome 135.0.7049.42,,,13-04-2025 16:18:02,13-04-2025 16:18:02,0.092s,PASSED
+navigateToUrl(url),Chrome 135.0.7049.42,,,13-04-2025 16:18:02,13-04-2025 16:18:30,27.496s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username_username""), ""admin"")",Chrome 135.0.7049.42,,,13-04-2025 16:18:30,13-04-2025 16:18:30,0.586s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""/5S6MFFLcE4mlsixtc6/Tg=="")",Chrome 135.0.7049.42,,,13-04-2025 16:18:30,13-04-2025 16:18:30,0.308s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Registration Desk_loginButton""))",Chrome 135.0.7049.42,,,13-04-2025 16:18:30,13-04-2025 16:18:31,0.303s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login/span_You must choose a location""), ""You must choose a location!"")",Chrome 135.0.7049.42,,,13-04-2025 16:18:31,13-04-2025 16:18:31,0.276s,PASSED
+,,,,,,,
+Test Cases/1. Login/3. Login menggunakan valid credential,Chrome 135.0.7049.42,,,13-04-2025 16:18:31,13-04-2025 16:19:52,1m - 21.310s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 135.0.7049.42,,,13-04-2025 16:18:31,13-04-2025 16:19:19,47.607s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.42,,,13-04-2025 16:19:19,13-04-2025 16:19:20,1.150s,PASSED
+maximizeWindow(),Chrome 135.0.7049.42,,,13-04-2025 16:19:20,13-04-2025 16:19:20,0.048s,PASSED
+navigateToUrl(url),Chrome 135.0.7049.42,,,13-04-2025 16:19:20,13-04-2025 16:19:47,26.742s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login/input_Username_username""), ""admin"")",Chrome 135.0.7049.42,,,13-04-2025 16:19:47,13-04-2025 16:19:47,0.573s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login/input_Password_password""), ""/5S6MFFLcE4mlsixtc6/Tg=="")",Chrome 135.0.7049.42,,,13-04-2025 16:19:47,13-04-2025 16:19:48,0.294s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/li_Pharmacy""))",Chrome 135.0.7049.42,,,13-04-2025 16:19:48,13-04-2025 16:19:48,0.329s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/input_Registration Desk_loginButton""))",Chrome 135.0.7049.42,,,13-04-2025 16:19:48,13-04-2025 16:19:52,3.747s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Dashboard/login_as""), ""Logged in as Super User (admin) at Pharmacy."")",Chrome 135.0.7049.42,,,13-04-2025 16:19:52,13-04-2025 16:19:52,0.477s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Home/span_Pharmacy""), ""Pharmacy"")",Chrome 135.0.7049.42,,,13-04-2025 16:19:52,13-04-2025 16:19:52,0.265s,PASSED

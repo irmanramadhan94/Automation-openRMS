@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Admin dapat melihat Active Visits Pasien</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4d5ae27-fd41-4f8e-b9a7-c0bc3a47417e</testCaseGuid>
+</TestCaseEntity>
